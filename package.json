@@ -1,0 +1,38 @@
+{
+  "name": "strk-claimer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "tsx __test__/test.ts"
+  },
+  "keywords": [],
+  "author": "retrodrop.tools",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/lowdb": "^1.0.15",
+    "@types/node": "^20.11.17",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^4.1.2",
+    "@uniswap/v3-sdk": "^3.10.2",
+    "ethers": "^6.11.1",
+    "exceljs": "^4.4.0",
+    "fibrous-router-sdk": "^0.3.4",
+    "https-proxy-agent": "^7.0.4",
+    "inquirer": "^9.2.14",
+    "lowdb": "^7.0.1",
+    "node-fetch": "^3.3.2",
+    "starknet": "6.0.0",
+    "telegraf": "^4.15.3",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "typescript-retry-decorator": "^2.4.2"
+  }
+}
